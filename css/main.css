@@ -119,6 +119,10 @@ small {
   margin-right: .15em;
   vertical-align: text-bottom;
 }
+.header .tagline {
+  font-size: .8em;
+  padding: 1em 0;
+}
 .header .title {
   font-size: 1.75em;
 }
