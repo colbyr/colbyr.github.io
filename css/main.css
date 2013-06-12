@@ -115,16 +115,20 @@ small {
     margin-right: 10px;
   }
 
+.header .line {
+  margin-top: 0;
+}
 .header .logo {
   margin-right: .15em;
   vertical-align: text-bottom;
 }
 .header .tagline {
   font-size: .8em;
-  padding: 1em 0;
+  margin: 1.5em 0 .5em;
 }
 .header .title {
   font-size: 1.75em;
+  margin-bottom: 0;
 }
   .header .title a {
     color: #333;
@@ -200,7 +204,13 @@ small {
   .footer {
     text-align: left;
   }
-  .header .tagline,
+  .header .line {
+    display: none;
+  }
+  .header .tagline {
+    margin: .75em 0 1em 50px;
+    text-align: left;
+  }
   .header .title {
     text-align: left;
   }
@@ -209,5 +219,6 @@ small {
   }
   .post-list .date {
     display: block;
+    text-align: left;
   }
 }
