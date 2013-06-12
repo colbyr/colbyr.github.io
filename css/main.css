@@ -189,9 +189,14 @@ small {
   .post .content p {
     text-align: justify;
   }
-  .post .title {
-    margin-bottom: 0;
+  .post .title,
+  .post .title h1 {
+    margin: 0;
   }
+
+.post-header {
+  padding: 1em;
+}
 
 .post-list {
   font-size: 1.5em;
