@@ -156,6 +156,9 @@ small {
 .post-list {
   font-size: 1.5em;
 }
+  .post-list-item {
+    margin-bottom: .67em;
+  }
   .post-list small {
     font-size: .6em;
     margin-right: 2em;
