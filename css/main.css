@@ -175,12 +175,8 @@ small {
   .post .more {
     margin-bottom: .5em;
   }
-  .post .no-indent {
-    text-indent: 0;
-  }
   .post .content p {
     text-align: justify;
-    text-indent: 1.5em;
   }
   .post .title {
     margin-bottom: 0;
