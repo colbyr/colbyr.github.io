@@ -166,6 +166,9 @@ small {
     font-style: italic;
     margin: 0;
   }
+  .post img {
+    width: 100%;
+  }
   .post h1 {
     border-bottom: 1px solid #ccc;
     margin-bottom: .25em;
