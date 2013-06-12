@@ -186,9 +186,6 @@ small {
   .post .more {
     margin-bottom: .5em;
   }
-  .post .content p {
-    text-align: justify;
-  }
   .post .title,
   .post .title h1 {
     margin: 0;
