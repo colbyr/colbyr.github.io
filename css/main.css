@@ -1,1 +1,94 @@
 /* Main */
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+
+/* COLORS
+blue: #5BAA9F
+yellow: #FFA200
+orange: #FA4B00
+white: #fff
+gray: #333
+*/
+
+/* Main */
+html{
+  color: #333;
+  font-family: Georgia, sans-serif;
+}
+
+a {
+  color: #FA9367;
+  text-decoration: none;
+}
+  a:active,
+  a:hover {
+    color: #FA4B00;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #999;
+  }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+ol.unstyled,
+ul.unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.horizontal,
+ul.horizontal {
+  overflow: hidden;
+}
+  ol.horizontal > li,
+  ul.horizontal > li {
+    display: inline-block;
+  }
+
+small {
+  color: #999;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header {}
+  .header a {
+    color: #333;
+  }
+  .header .logo {
+    margin-right: .25em;
+    vertical-align: text-bottom;
+  }
+  .header .title {
+    font-size: 1.5em;
+  }
+
+
+.nav {
+  padding: .25em 0;
+  text-align: right;
+}
+  .nav a {
+    border-radius: 0 5px 0 5px;
+    color: #999;
+    display: block;
+    padding: .5em 1em;
+  }
+    .nav a:hover {
+      background-color: #999;
+      color: #fff;
+      text-decoration: none;
+    }
+
+.post-list {
+  font-size: 1.5em;
+}
+  .post-list small {
+    font-size: .6em;
+    margin-right: 2em;
+  }
