@@ -75,6 +75,10 @@ small {
   text-align: right;
 }
 
+.comments {
+  padding: 3em;
+}
+
 .rollover {
   background-position: 0px 0px;
   display: block;
