@@ -33,6 +33,13 @@ h1 {
   font-weight: normal;
 }
 
+hr {
+  background-color: #ccc;
+  border: none;
+  height: 1px;
+  margin: 1em 0;
+}
+
 ol.unstyled,
 ul.unstyled {
   list-style: none;
@@ -48,6 +55,10 @@ ul.horizontal {
     display: inline-block;
   }
 
+.pad {
+  padding: 1.5em;
+}
+
 small {
   color: #999;
 }
@@ -55,6 +66,25 @@ small {
 .text-right {
   text-align: right;
 }
+
+.footer {
+}
+  .footer .face {
+    background-image: url(/img/face.jpg);
+    background-position: 0px 0px;
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 1em;
+    width: 50px;
+  }
+    .footer .face:hover {
+      background-position: 50px 0px;
+    }
+
+  .footer .me {
+    line-height: 1.5;
+  }
 
 .header {}
   .header a {
@@ -65,7 +95,7 @@ small {
     vertical-align: text-bottom;
   }
   .header .title {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
 
 
@@ -85,6 +115,9 @@ small {
       text-decoration: none;
     }
 
+.post {
+}
+
 .post-list {
   font-size: 1.5em;
 }
@@ -92,3 +125,4 @@ small {
     font-size: .6em;
     margin-right: 2em;
   }
+
