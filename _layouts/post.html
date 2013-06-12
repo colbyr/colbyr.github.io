@@ -5,15 +5,15 @@ layout: base
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <article>
-        <header>
+      <article class="post">
+        <header class="title">
           <h1>{{ page.title }}</h1>
           <p class="date">{{ page.date | date_to_string }}</p>
         </header>
-        <section>
+        <section class="content">
           {{ content }}
         <section>
-        <footer class="text-right">
+        <footer class="meta text-right">
           <p>by <a href="/me.html" class="author">Colby R.</a></p>
         <footer>
       </article>
