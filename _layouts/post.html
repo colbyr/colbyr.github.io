@@ -5,20 +5,17 @@ layout: base
   <div class="row">
     <div class="col-12">
       <article class="post">
-        <header class="title">
+        <header class="text-center title">
           <h1>{{ page.title }}</h1>
           <p class="date no-indent">{{ page.date | date_to_string }}</p>
         </header>
         <section class="content">
           {{ content }}
         </section>
-        <p class="more text-right"><a href="/">see more posts</a></p>
+        <p class="more text-center">-- <a href="/">more posts</a> --</p>
         <footer class="meta">
-          <div class="me pad">
-            <a href="/me.html" class="face"></a>
-            Hi, my name is <a href="/me.html">Colby</a>.<br/>I make the Internet.
-          </div>
-        <footer>
+          {% include footer.html %}
+        </footer>
       </article>
     </div>
   </div>

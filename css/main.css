@@ -19,13 +19,12 @@ a {
   color: #FA9367;
   text-decoration: none;
 }
+  a:visited {
+    color: #999;
+  }
   a:active,
   a:hover {
     color: #FA4B00;
-    text-decoration: underline;
-  }
-  a:visited {
-    color: #999;
   }
 
 h1 {
@@ -69,37 +68,65 @@ small {
   color: #999;
 }
 
+.text-center {
+  text-align: center;
+}
 .text-right {
   text-align: right;
 }
 
+.rollover {
+  background-position: 0px 0px;
+  display: block;
+  float: left;
+  height: 50px;
+  margin: 0;
+  width: 50px;
+}
+  .rollover:hover {
+    background-position: 50px 0px;
+  }
+.rollover-face {
+  background-image: url(/img/face.jpg);
+}
+.rollover-github {
+  background-image: url(/img/github.png);
+}
+.rollover-twitter {
+  background-image: url(/img/twitter.jpg);
+}
 
 .me {
   line-height: 1.5;
 }
-  .me .face {
-    background-image: url(/img/face.jpg);
-    background-position: 0px 0px;
-    display: block;
-    float: left;
-    height: 50px;
-    margin-right: 1em;
-    width: 50px;
-  }
-    .me .face:hover {
-      background-position: 50px 0px;
-    }
 
-.header {}
-  .header a {
+.footer {
+  text-align: center;
+}
+  .footer .footer-item {
+    display: inline-block;
+    height: 50px;
+    margin: 0 5px 1em;
+    position: relative;
+    text-align: left;
+    width: 220px;
+  }
+  .footer .rollover {
+    margin-right: 10px;
+  }
+
+.header .logo {
+  margin-right: .15em;
+  vertical-align: text-bottom;
+}
+.header .title {
+  font-size: 1.75em;
+}
+  .header .title a {
     color: #333;
   }
-  .header .logo {
-    margin-right: .25em;
-    vertical-align: text-bottom;
-  }
-  .header .title {
-    font-size: 1.75em;
+  .header .title a:hover {
+    text-decoration: none;
   }
 
 
@@ -124,21 +151,22 @@ small {
 }
   .post .content {
     font-size: 1.15em;
+    padding: 0 1.5em;
   }
   .post .date {
     font-size: .8em;
     font-style: italic;
     margin: 0;
-    text-align: right;
   }
   .post h1 {
     border-bottom: 1px solid #ccc;
     margin-bottom: .25em;
   }
-  .post .me {
+  .post .meta {
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
-    padding: 1em 1em 1.25em;
+    overflow: hidden;
+    padding: 1em 0 0;
   }
   .post .more {
     margin-bottom: .5em;
@@ -146,7 +174,8 @@ small {
   .post .no-indent {
     text-indent: 0;
   }
-  .post p {
+  .post .content p {
+    text-align: justify;
     text-indent: 1.5em;
   }
   .post .title {
@@ -164,3 +193,8 @@ small {
     margin-right: 2em;
   }
 
+@media handheld,only screen and (max-width:768px) {
+  .post .content {
+    padding: 0;
+  }
+}
