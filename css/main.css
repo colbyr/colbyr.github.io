@@ -116,7 +116,7 @@ small {
   }
 
 .header .line {
-  margin-top: 0;
+  margin-top: .5em;
 }
 .header .logo {
   margin-right: .15em;
@@ -124,7 +124,7 @@ small {
 }
 .header .tagline {
   font-size: .8em;
-  margin: 1.5em 0 .5em;
+  margin: 2.5em 0 .5em;
 }
 .header .title {
   font-size: 1.75em;
