@@ -42,6 +42,7 @@ hr {
 
 pre {
   background-color: #eee;
+  line-height: 1.25;
   padding: 1.25em 1.5em;
 }
 
@@ -61,7 +62,7 @@ ul.horizontal {
   }
 
 .pad {
-  padding: 1.5em;
+  padding: 0 1em;
 }
 
 small {
@@ -72,9 +73,11 @@ small {
   text-align: right;
 }
 
-.footer {
+
+.me {
+  line-height: 1.5;
 }
-  .footer .face {
+  .me .face {
     background-image: url(/img/face.jpg);
     background-position: 0px 0px;
     display: block;
@@ -83,13 +86,9 @@ small {
     margin-right: 1em;
     width: 50px;
   }
-    .footer .face:hover {
+    .me .face:hover {
       background-position: 50px 0px;
     }
-
-  .footer .me {
-    line-height: 1.5;
-  }
 
 .header {}
   .header a {
@@ -121,13 +120,26 @@ small {
     }
 
 .post {
+  line-height: 1.5;
 }
+  .post .no-indent {
+    text-indent: 0;
+  }
   .post .content {
     font-size: 1.15em;
+    margin-bottom: 3em;
   }
   .post .date {
-    font-style: italic;
     color: #999;
+    font-style: italic;
+    margin: 0;
+  }
+  .post h1 {
+    border-bottom: 1px solid;
+    padding-bottom: .5em;
+  }
+  .post p {
+    text-indent: 1.5em;
   }
 
 .post-list {
