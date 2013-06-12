@@ -189,8 +189,11 @@ small {
     margin-bottom: .67em;
   }
   .post-list .date {
+    display: inline-block;
     font-size: .6em;
     margin-right: 2em;
+    text-align: right;
+    min-width: 120px;
   }
 
 @media handheld,only screen and (max-width:768px) {
