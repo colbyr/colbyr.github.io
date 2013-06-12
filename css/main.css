@@ -192,13 +192,23 @@ small {
   .post-list-item {
     margin-bottom: .67em;
   }
-  .post-list small {
+  .post-list .date {
     font-size: .6em;
     margin-right: 2em;
   }
 
 @media handheld,only screen and (max-width:768px) {
+  .footer {
+    text-align: left;
+  }
+  .header .tagline,
+  .header .title {
+    text-align: left;
+  }
   .post .content {
     padding: 0;
+  }
+  .post-list .date {
+    display: block;
   }
 }

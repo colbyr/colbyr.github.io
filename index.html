@@ -8,7 +8,7 @@ title: Thoughts
     <ol class="post-list unstyled">
       {% for post in site.posts %}
         <li class="post-list-item">
-          <small>{{ post.date | date_to_string }}</small>
+          <small class="date">{{ post.date | date_to_string }}</small>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
