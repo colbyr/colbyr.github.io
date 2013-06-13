@@ -24,7 +24,7 @@ class User extends Aware {
    */
   public static $rules = array(
     'name' => 'required',
-    email => 'required|email'
+    'email' => 'required|email'
   );
 
 }
