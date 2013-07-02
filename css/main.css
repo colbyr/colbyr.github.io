@@ -78,6 +78,10 @@ small {
 .comments {
   padding: 3em;
 }
+  .comments .closed {
+    font-style: italic;
+    text-align: center;
+  }
 
 .rollover {
   background-position: 0px 0px;
