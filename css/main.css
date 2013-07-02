@@ -132,6 +132,7 @@ small {
 }
 .header .tagline {
   font-size: .8em;
+  font-style: italic;
   margin: 2.5em 0 .5em;
 }
 .header .title {
