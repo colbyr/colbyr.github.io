@@ -1,0 +1,18 @@
+.hidden {
+  display: none;
+}
+
+.nav a {
+  color: #333;
+  display: block;
+  padding: .25em;
+  text-decoration: none;
+}
+  .nav a:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+  .nav .current {
+    border-bottom: 1px solid;
+  }
