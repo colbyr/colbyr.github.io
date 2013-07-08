@@ -4,10 +4,14 @@ layout: post
 title: "Waiting"
 ---
 
-to begin? *Necessity.*
+Waiting to begin? *Necessity.*
 
-on the chance? *Fruitless.*
+Waiting on the chance? *Fruitless.*
 
-for the end? *Poison.*
+Waiting for the end? *Poison.*
 
-Think, feel, do.
+Think,
+
+feel,
+
+do.
