@@ -13,9 +13,9 @@ layout: base
           <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
         </header>
         {% if page.centered %}
-        <section class="content text-center">
+        <section class="content group text-center">
         {% else %}
-        <section class="content">
+        <section class="content group">
         {% endif %}
           {{ content }}
         </section>

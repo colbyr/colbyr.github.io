@@ -39,6 +39,11 @@ hr {
   margin: 1em 0;
 }
 
+iframe {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
 pre {
   background-color: #eee;
   line-height: 1.25;
@@ -59,6 +64,12 @@ ul.horizontal {
   ul.horizontal > li {
     display: inline-block;
   }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .pad {
   padding: 0 1em;
@@ -168,7 +179,7 @@ small {
 }
   .post .content {
     font-size: 1.15em;
-    padding: 0 2.5em;
+    margin: 2.5em;
   }
   .post .date {
     font-size: .8em;
@@ -219,6 +230,11 @@ small {
     padding-left: 0;
     padding-right: 0;
   }
+  iframe {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
   .footer {
     text-align: left;
   }
@@ -233,7 +249,8 @@ small {
     text-align: left;
   }
   .post .content {
-    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .post-list .date {
     display: block;
