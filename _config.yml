@@ -1,6 +1,6 @@
 author: Colby Rabideau
 markdown: redcarpet
 name: Feels Good by Colby Rabideau
-pygments: true
+highlighter: pygments
 
 url: "http://colbyr.com"
