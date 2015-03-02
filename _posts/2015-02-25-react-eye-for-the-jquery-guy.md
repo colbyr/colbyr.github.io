@@ -48,7 +48,7 @@ $('.delete-button').click(function(event) {
 
 My first instict was to do the same in my components.
 
-{% highlight jsx %}
+{% highlight js %}
 React.createClass({
   handleDelete: function(event) {
     deleteUserById(
@@ -66,8 +66,6 @@ React.createClass({
   }
 });
 {% endhighlight %}
-
-
 
 ## Make refs, not DOM queries
 
